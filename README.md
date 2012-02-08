@@ -8,7 +8,8 @@ Update your app's _/config/plugins.cfm_ with the following.
 
 	<cfset add("com-ryanricard-logger") />
 
-######Copyright 2012 Ryan Ricard
+
+#####Copyright 2012 Ryan Ricard
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
