@@ -13,8 +13,8 @@ component {
 
 		arguments.filename = arguments.filename & "_log_" & dateformat(now(), "yyyymmdd");
 
-		var directoryPath = expandPath("/config/log");
-		var filePath = expandPath("/config/log/#arguments.filename#.txt");
+		var directoryPath = expandPath("/app/../log");
+		var filePath = expandPath("/app/../log/#arguments.filename#.txt");
 
 		if(!isJson(arguments.data)){
 			arguments.data = serializeJson(arguments.data);
