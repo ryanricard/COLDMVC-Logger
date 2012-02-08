@@ -1,6 +1,6 @@
-A logging plugin for ColdMVC
+####A logging plugin for ColdMVC
 
-* Usage:
+#####Usage:
 
 Download the Logger plugin for ColdMVC and put it inside your _/plugins_ folder. Name the directory however you like; to reduce possible conflict, I suggest namespacing it _/com-ryanricard-logger_.
 
@@ -8,7 +8,7 @@ Update your app's _/config/plugins.cfm_ with the following.
 
 	<cfset add("com-ryanricard-logger") />
 
-Copyright 2012 Ryan Ricard
+######Copyright 2012 Ryan Ricard
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
