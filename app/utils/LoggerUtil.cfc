@@ -3,13 +3,13 @@
  */
 component {
 
-	function timestamp(){
+	private string function timestamp(){
 
 		return dateformat(now(),"yyyymmdd") & " " & timeformat(now(),"HH:mm:ss");
 
 	}
 
-	function write(required string filename, required any data){
+	public void function write(required string filename, required any data){
 
 		arguments.filename = arguments.filename & "_log_" & dateformat(now(),"yyyymmdd");
 
@@ -33,7 +33,7 @@ component {
 
 	}
 
-	function writeLine(required string filepath,required string data){
+	private void function writeLine(required string filepath,required string data){
 
 		var log = fileOpen(arguments.filePath, "append");
 
