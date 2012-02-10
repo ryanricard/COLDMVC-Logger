@@ -8,7 +8,34 @@ Update your app's _/config/plugins.cfm_ with the following.
 
 	<cfset add("com-ryanricard-logger") />
 
+Call Logger by way of the logger helper or controller action methods.
 
+####Available Methods
+
+#####write(filename, data)
+
+Controller Action Helper: logWrite(filename, data)
+
+Returns: void
+
+* filename (required): string
+* data (required): any complex or simple value
+
+#####error(data)
+
+Controller Action Helper: logError(data)
+
+Returns: void
+
+* data (required): any complex or simple value
+
+#####request(data)
+
+Controller Action Helper: logRequest(data)
+
+Returns: void
+
+* data (required): any complex or simple value
 
 
 #####Copyright 2012 Ryan Ricard
