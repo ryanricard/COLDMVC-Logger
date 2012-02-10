@@ -37,7 +37,7 @@ Returns: void
 
 * data (required): any complex or simple value
 
-####Observes writes data on ColdMVC _error_ event
+####Observes & writes data on ColdMVC _error_ event.  Intrusive? Maybe, but I like it.
 
 Details: Out of the box, the plugin observers the ColdMVC error event (newly added in ColdMVC 2.0), creates a log directory at the same level as your app directory, and writes a dated error_log_YYYYMMDD.txt documenting daily errors. Potential hang-ups include the possibility of OS file write permissions.
 
