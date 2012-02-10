@@ -1,6 +1,6 @@
 ###A logging plugin for ColdMVC
 
-####Usage:
+####Usage
 
 Download the Logger plugin for ColdMVC and put it inside your _/plugins_ folder. Name the directory however you like; to reduce possible conflict, I suggest namespacing it _/com-ryanricard-logger_.
 
