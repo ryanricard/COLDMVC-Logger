@@ -1,6 +1,6 @@
-####A logging plugin for ColdMVC
+###A logging plugin for ColdMVC
 
-#####Usage:
+####Usage:
 
 Download the Logger plugin for ColdMVC and put it inside your _/plugins_ folder. Name the directory however you like; to reduce possible conflict, I suggest namespacing it _/com-ryanricard-logger_.
 
@@ -42,7 +42,7 @@ Returns: void
 Details: Out of the box, the plugin observers the ColdMVC error event (newly added in ColdMVC 2.0), creates a log directory at the same level as your app directory, and writes a dated error_log_YYYYMMDD.txt documenting daily errors. Potential hang-ups include the possibility of OS file write permissions.
 
 
-#####Copyright 2012 Ryan Ricard
+####Copyright 2012 Ryan Ricard
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
